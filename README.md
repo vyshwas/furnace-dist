@@ -1,13 +1,17 @@
-# Furnace Labs — public distribution
+# Furnace â€” public downloads
 
-This repo hosts versioned alpha tarballs only. No source lives here.
+This repository hosts Furnace release downloads only. The source code is not here.
 
-## Install (v0.1.0-alpha.1)
+## Install (v0.2.0-alpha.1)
 
-``sh
-mkdir furnace-alpha && cd furnace-alpha && curl -fsSL https://github.com/vyshwas/furnace-dist/releases/download/v0.1.0-alpha.1/furnace-v0.1.0-alpha.1.tgz | tar xz && ./install.sh
-``n
-SHA256: `793e5ead1c57ee6b68d4817178207faadbd326a5cb2f85c343b9ea0db21622a3`
+```sh
+mkdir furnace-alpha && cd furnace-alpha && curl -fsSL https://github.com/vyshwas/furnace-dist/releases/download/v0.2.0-alpha.1/furnace-v0.2.0-alpha.1.tgz | tar xz && ./install.sh
+```
 
-Requires Node.js 24+. No sign-up, no backend. See the tarball README for docs.
+SHA-256: `9cd3e2ccb687f1cfdc870b421610ffdab80af7a36adc7d95c6f2d52cfa0b601e`
 
+Requires Node.js 24+ and a POSIX shell (Git Bash on Windows). Install it in its own folder, not inside your app's repository. There's no sign-up and no backend. Each release includes signed release details, the public key to check them, and a list of included packages. See the release notes for how to verify.
+
+Licence: free beta licence, included as `LICENSE` in each download. It is not open source.
+
+Problems or security reports: open an issue in this repository.
