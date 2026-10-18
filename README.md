@@ -2,13 +2,13 @@
 
 This repository hosts Furnace release downloads only. The source code is not here.
 
-## Install (v0.6.1-alpha.1)
+## Install (v0.6.2-alpha.1)
 
 ```sh
-mkdir furnace-alpha && cd furnace-alpha && curl -fsSL https://github.com/vyshwas/furnace-dist/releases/download/v0.6.1-alpha.1/furnace-v0.6.1-alpha.1.tgz | tar xz && ./install.sh
+mkdir furnace-alpha && cd furnace-alpha && curl -fsSL https://github.com/vyshwas/furnace-dist/releases/download/v0.6.2-alpha.1/furnace-v0.6.2-alpha.1.tgz | tar xz && ./install.sh
 ```
 
-SHA-256: `9d0dd9fad2eac724410131b0b85a6af7a307b5c983e77e4d18c67660681a5356`
+SHA-256: `b871a6c93a817f092d62aeebea621b2784474f3b255694fa8a8f0d42a84004f6`
 
 Requires Node.js 24+ and a POSIX shell (Git Bash on Windows). Install it in its own folder, not inside your app's repository.
 
